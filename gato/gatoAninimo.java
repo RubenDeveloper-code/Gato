@@ -5,7 +5,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.Dimension;
 
-public class gatopt3 extends JFrame {
+public class gatoAninimo extends JFrame {
 
     int turno = -1;
     JLabel label;
@@ -31,7 +31,7 @@ public class gatopt3 extends JFrame {
         }
     }
 
-    public gatopt3() {
+    public gatoAninimo() {
 
         initArray();
         jButton11 = new JButton("");
@@ -48,31 +48,76 @@ public class gatopt3 extends JFrame {
         getContentPane().setLayout(miLayout);
         getContentPane().setSize(500, 400);
 
-        jButton11.addActionListener(new MyActionListener());
+        jButton11.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton11);
 
-        jButton12.addActionListener(new MyActionListener());
+        jButton12.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton12);
 
-        jButton13.addActionListener(new MyActionListener());
+        jButton13.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton13);
 
-        jButton14.addActionListener(new MyActionListener());
+        jButton14.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton14);
 
-        jButton15.addActionListener(new MyActionListener());
+        jButton15.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton15);
 
-        jButton16.addActionListener(new MyActionListener());
+        jButton16.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton16);
 
-        jButton17.addActionListener(new MyActionListener());
+        jButton17.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton17);
 
-        jButton18.addActionListener(new MyActionListener());
+        jButton18.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton18);
 
-        jButton19.addActionListener(new MyActionListener());
+        jButton19.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent ae) {
+                filterBtnAndChangeStatus(ae);
+            }
+        });
         getContentPane().add(jButton19);
         getContentPane().add(label);
     }
